@@ -1,0 +1,77 @@
+body {
+    background-color: #fce6e6; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #d66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 1000;
+  }
+  
+  .main-content {
+    padding-top: 80px; /* Ensures space below the fixed navbar */
+  }
+  
+  .login-container, .register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 80px; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(200, 0, 0, 0.08);
+    background-color: #fffafa;
+  }
+  
+  .login-title, .register-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d6a8a8;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #c0392b;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #a93226;
+  }
+  

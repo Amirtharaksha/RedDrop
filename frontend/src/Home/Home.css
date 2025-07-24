@@ -1,0 +1,132 @@
+.homepage-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #fff0f0, #ffffff);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 16px;
+  margin: 80px auto 50px;
+  max-width: 900px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+.stats-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.stat {
+  background-color: #ffe6e6;
+  padding: 30px 20px;
+  border-radius: 16px;
+  cursor: pointer;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stat:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.stat h2 {
+  font-size: 2.2rem;
+  color: #e60000;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-box {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn-box button {
+  padding: 14px 32px;
+  background-color: #e60000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 220px;
+}
+
+.btn-box button:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+}
+
+.details-box {
+  margin-top: 50px;
+  padding: 0 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details-box h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #d10000;
+  font-size: 2rem;
+}
+
+.details-box ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.details-box li {
+  background-color: #fff;
+  padding: 18px 20px;
+  border-left: 6px solid #e60000;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.details-box li h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #e60000;
+}
+
+.details-box li p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
